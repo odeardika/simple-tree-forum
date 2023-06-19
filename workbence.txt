@@ -1,0 +1,16 @@
+create table user(
+    id INT primary key auto_increment,
+    username VARCHAR(50),
+    password varchar(50)
+)
+
+insert into user (username, password)
+values ('Ode Ardika','odeardika');
+
+create table diskusi(
+    id INT primary key auto_increment,
+    username VARCHAR(50),
+    waktu TIMESTAMP default current_timestamp,
+    input TEXT,
+    tipe_input enum('penanya','penjawab')
+);

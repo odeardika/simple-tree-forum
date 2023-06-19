@@ -1,0 +1,43 @@
+h4{
+    display: inline;
+}
+div[class='profile']{
+   border: black;
+   border-style: solid;
+   margin-bottom: 5px;
+}
+div[class="reply_container"]{
+    padding: 5px;
+}
+p{
+    margin-left: 5px;
+}
+label[id="reply-label"]{
+    position: relative;
+    left: 97%;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+input[type="submit"]{
+    left: 97%;
+}
+img[src="pngwing.com.png"]{
+    position: fixed;
+    left: 93%;
+    top: 89%;
+    width: 100px;
+    height: 100px;
+}
+div[class="answer"]{
+    border: black;
+    border-style: solid;
+    padding: 3px;
+    margin: 5px;
+}
+div[class="footer"]{
+    height: 100px;
+}
